@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  background: #bae6fd;
+  color: #0c4a6e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.ba-slider {
+  cursor: ew-resize;
+  touch-action: none;
+  user-select: none;
+}
